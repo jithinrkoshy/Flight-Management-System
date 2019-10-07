@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>AMS</title>
+<style>
+
+{
+ 
+ margin:0;
+ padding:0;
+}
+header
+{
+ background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(air1.jpg);
+ height: 100vh;
+ background-size:120% 120%;
+ background-position:center;
+}
+
+.main-nav
+{
+float: right;
+list-style:none;
+margin-top:30px;
+margin-right:10px;
+}
+.main-nav li
+{
+display: inline-block;
+}
+.main-nav li a
+{
+color:white;
+text-decoration:none;
+padding:5px 20px;
+font-family:"Roboto",san-serif;
+font-size:15px;
+}
+.main-nav li a:hover
+{
+border: 1px solid white;
+}
+.hero
+{
+position:absolute;
+width:800px;
+margin-left:50;
+margin-top:50;
+
+}
+h1
+{
+color:white;
+text-transform:uppercase;
+font-size:50px;
+text-align:left;
+margin-top:10px;
+}
+
+</style>
+</head>
+<body>
+<header>
+
+<div class="row">
+<div class="hero" >
+<h1><i><u>HELP</u></i></h1>
+</div>
+<ul class="main-nav">
+<li><a href="index.html" >HOME</a></li>
+
+
+
+
+</ul>
+</div>
+
+</header>
+</body>
+</html>

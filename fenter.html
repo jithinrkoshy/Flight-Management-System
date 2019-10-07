@@ -1,0 +1,54 @@
+<html>
+
+<head>
+<title>AIRPORT MANAGEMENT SYSTEM</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    background-image:url("air1.jpg");
+    background-position:50% 30%;
+    background-repeat:no-repeat;
+    background-color: linen;
+}
+a
+{
+ color:white;
+ font-family: verdana;
+ font-size: 40px;
+
+}
+div{ display:table-row;}
+.myDiv{
+    width:100%;
+    height:100%;
+    background:lightgrey;
+}
+</style>
+</head>
+
+<body>
+
+<h1 style="color:brown;text-align:center"><u>RESERVATIONS</u></h1>
+
+<br>
+<center>
+<div class="myDiv">
+<form method="POST" action="insert.php" >
+
+
+<pre>
+<label style="font-size:20px"><b>  USERID:           </b></label> <input type="text" name="FNO" >  <br>
+<label style="font-size:20px"><b>  NAME:              </b></label><input type="text" name="FNAME">  <br>
+<label style="font-size:20px"><b> PHONE NUMBER:      </b></label><input type="text" name="ATIME"> <br>
+<label style="font-size:20px"><b> FLIGHT NUMBER:     </b></label><input type="text" name="DTIME"> <br>
+<label style="font-size:20px"><b>  NUMBER OF SEATS:   </b></label><input type="text" name="TSEATS">  <br>
+<input type="submit" name="submit" value="Submit">
+</form>
+
+</pre>
+</div>
+</center>
+<br>
+
+</html>

@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>AMS</title>
+<style>
+
+{
+ 
+ margin:0;
+ padding:0;
+}
+header
+{
+ background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(air1.jpg);
+ height: 100vh;
+ background-size:120% 120%;
+ background-position:center;
+}
+
+.main-nav
+{
+float: right;
+list-style:none;
+margin-top:30px;
+margin-right:10px;
+}
+.main-nav li
+{
+display: inline-block;
+}
+.main-nav li a
+{
+color:white;
+text-decoration:none;
+padding:5px 20px;
+font-family:"Roboto",san-serif;
+font-size:15px;
+}
+.main-nav li a:hover
+{
+border: 1px solid white;
+}
+.hero
+{
+position:absolute;
+width:800px;
+margin-left:30;
+margin-top:0;
+
+}
+.heronew
+{
+position:absolute;
+width:1200px;
+margin-left:50;
+margin-top:200;
+
+}
+h1
+{
+color:white;
+text-transform:uppercase;
+font-size:50px;
+text-align:left;
+margin-top:10px;
+}
+
+.myDiv{
+    width:20%;
+    height:20%;
+    background:lightgrey;
+   display:table-row;
+}
+</style>
+</head>
+<body>
+<header>
+
+<div class="row">
+<div class="hero" >
+<h1><i><u>RESERVATIONS</u></i></h1>
+</div>
+<ul class="main-nav">
+<li><a href="index.html" >HOME</a></li>
+<li><a href="find.html" >FIND A FLIGHT</a></li>
+<li><a href="reserve.html" >RESERVATIONS</a></li>
+
+</ul>
+</div>
+<center>
+<div class="heronew">
+<div class="myDiv">
+<form method="POST" action="rinsert.php" >
+
+
+<pre>
+<label style="font-size:20px"><b>  USERID:           </b></label> <input type="text" name="UID" >  <br>
+<label style="font-size:20px"><b>  NAME:              </b></label><input type="text" name="NAME">  <br>
+<label style="font-size:20px"><b> PHONE NUMBER:      </b></label><input type="text" name="PNO"> <br>
+<label style="font-size:20px"><b> FLIGHT NUMBER:     </b></label><input type="text" name="FNO"> <br>
+<label style="font-size:20px"><b>  NUMBER OF SEATS:   </b></label><input type="text" name="NSEATS">  <br>
+<input type="submit" name="submit" value="BOOK">
+</form>
+
+</pre>
+</div>
+</div>
+</center>
+</header>
+</body>
+</html>
